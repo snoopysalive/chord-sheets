@@ -1,0 +1,31 @@
+title: 'Example'
+config:
+   line_length: 10
+   bar_width: 50
+   time_signature: '4/4'
+song:
+   'Intro':
+      - 'E': 2
+      - 'B': 2
+      - 'A': 4
+      - 'B': 4
+   'Verse 1':
+      -
+         - 'E': 2
+         - 'C#m': 2
+         - 'A': 2
+         - 'B': 2
+      -
+         - 'E': 1
+         - 'B': 1
+         - 'C#m': 1
+         - 'A': 1
+         - ':': 4
+   'Chorus 1':
+      - 'C#m': 2
+      - 'A': 2
+      - 'E': 2
+      - 'B': 2
+      - ':': 1
+   'Ending':
+      - 'E': 4
