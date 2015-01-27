@@ -5,10 +5,10 @@ The Chord Sheet Creator is a quick-and-dirty Ruby-tool generating simple chord s
 
 I've written this tool for creating lead sheets for the members of my band in a digital 
 way as my handwritten ones are kind of unreadable and (which is true for every handwritten 
-document) hard do maintain when changes occur.
+document) hard to maintain when changes occur.
 
 It's a tool for my own private usage but I've decided to share it with you. Maybe
-there are some fellows outside facing the same problem who don't want to dive into learing
+there are some fellows outside facing the same problem who don't want to dive into learning
 highly-sofisticated tools like LiliPond which seem way too large for my purposes.
 
 ## Beta Status
@@ -16,11 +16,11 @@ highly-sofisticated tools like LiliPond which seem way too large for my purposes
 This script is in beta status. It was written under Mac OS X using Ruby 2.1.2 and I haven't 
 tested it on neither Linux nor Windows. 
 
-It's just a quick-and-dirty solution for my primary goals. There's poor OO and no error handling. Of course, I'll try to improve these downcomings.
+It's just a quick-and-dirty solution for my primary goals. There's poor OO and no error handling. Of course, I'll try to improve these lacks.
 
 ## Prerequiries
 
-You have to have installed the following gems:
+Install the following gems:
 
     $ gem install pdfkit
     $ gem install wkhtmltopdf-binary
@@ -35,7 +35,7 @@ You have to have installed the following gems:
 
 Check out the example file **example/example.yaml**. The file consists of three main keys: `title`, `config` and `song`.
 
-* `title` just has a string as value. It's the name of the song.
+* `title` just has a string as value. It's the name of the song
 * `config` consists of three sub-keys:
   * `line_length`: int-value setting the count of bars per line
   * `bar_width`: int-value setting the width of each bar in px
