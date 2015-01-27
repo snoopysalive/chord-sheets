@@ -1,4 +1,13 @@
 #!/usr/bin/env ruby
+#
+# Chord Sheet Creator
+# -------------------
+#
+# Tool for creating chord sheets for musicians
+#
+# Author:  Matthias Kistler <github@snoopysalive.de>
+# Date:    2015-01-27
+# Version: 0.1
 
 require 'yaml'
 require 'pdfkit'
